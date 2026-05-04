@@ -23,7 +23,7 @@
   --avail-bg:rgba(184,240,74,0.15);
   --blocked:#f04a4a;
   --unavail:#3a3a36;
-  --noffer:#1a1a18;
+  --noffer:#252520;
   --r:8px;
 }
 body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;font-size:14px;min-height:100vh;overflow-x:hidden}
@@ -127,7 +127,7 @@ main{flex:1;overflow-y:auto;padding:20px 24px;display:flex;flex-direction:column
 .theader-sp{width:28px;flex-shrink:0}
 .thlabels{display:flex;flex:1}
 .slots{display:flex;flex:1;gap:1.5px}
-.slot{flex:1;height:18px;border-radius:2px;cursor:default;transition:transform .1s}
+.slot{flex:1;height:22px;border-radius:2px;cursor:default;transition:transform .1s}
 .slot.a{background:var(--avail);cursor:pointer}
 .slot.a:hover{transform:scaleY(1.3);opacity:.85}
 .slot.b{background:var(--blocked)}
@@ -354,8 +354,14 @@ function buildCard(v, day){
   // Build minute map
   const mmap = new Array(TOTAL).fill('n')
   day.slots.forEach(sl => {
-    const s = sl.start - T_START*60
-    const e = sl.end   - T_START*60
+    // slots have absolute minutes (e.g. start:420 = 7:00am)
+    // convert to offset from T_START
+    let startAbs = sl.start
+    let endAbs = sl.end
+    // If values seem too small, they might be hour-based
+    if(startAbs < 100) { startAbs = startAbs * 60; endAbs = endAbs * 60 }
+    const s = startAbs - T_START*60
+    const e = endAbs   - T_START*60
     for(let m=Math.max(0,s); m<Math.min(TOTAL,e); m++){
       const cur=mmap[m], nxt=sl.status
       if(cur==='n') mmap[m]=nxt
