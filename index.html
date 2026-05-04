@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Linz Sports Halls</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0c0c0b;
+  --s1:#161614;
+  --s2:#1e1e1b;
+  --s3:#272724;
+  --border:rgba(255,255,255,0.07);
+  --border2:rgba(255,255,255,0.13);
+  --text:#ede9e0;
+  --muted:#6b6860;
+  --muted2:#9a9690;
+  --accent:#b8f04a;
+  --accent-dim:rgba(184,240,74,0.1);
+  --avail:#b8f04a;
+  --avail-bg:rgba(184,240,74,0.15);
+  --blocked:#f04a4a;
+  --unavail:#3a3a36;
+  --noffer:#1a1a18;
+  --r:8px;
+}
+body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;font-size:14px;min-height:100vh;overflow-x:hidden}
+
+/* HEADER */
+header{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:16px 24px;border-bottom:1px solid var(--border);
+  position:sticky;top:0;z-index:200;
+  background:rgba(12,12,11,0.94);backdrop-filter:blur(12px);
+}
+.logo{font-family:'Instrument Serif',serif;font-size:22px;letter-spacing:-0.3px}
+.logo em{color:var(--accent);font-style:italic}
+.header-right{display:flex;align-items:center;gap:10px}
+.updated{font-family:'DM Mono',monospace;font-size:11px;color:var(--muted);padding:6px 12px;background:var(--s2);border:1px solid var(--border);border-radius:var(--r)}
+
+/* DATE TABS */
+.date-tabs{display:flex;gap:6px;overflow-x:auto;padding:14px 24px 0;border-bottom:1px solid var(--border);scrollbar-width:none}
+.date-tabs::-webkit-scrollbar{display:none}
+.dtab{
+  padding:7px 14px;border-radius:8px 8px 0 0;font-size:12px;cursor:pointer;
+  border:1px solid transparent;border-bottom:none;background:transparent;
+  color:var(--muted2);white-space:nowrap;transition:all .15s;flex-shrink:0;
+  font-family:'DM Mono',monospace;
+}
+.dtab:hover{color:var(--text);background:var(--s2)}
+.dtab.active{background:var(--s1);border-color:var(--border);color:var(--accent);font-weight:500}
+.dtab.has-avail::after{content:'●';color:var(--accent);font-size:7px;margin-left:5px;vertical-align:middle}
+
+/* LAYOUT */
+.layout{display:flex;height:calc(100vh - 107px)}
+
+/* SIDEBAR */
+aside{
+  width:210px;min-width:210px;border-right:1px solid var(--border);
+  padding:18px 14px;overflow-y:auto;display:flex;flex-direction:column;gap:20px
+}
+.sg-title{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:500;margin-bottom:8px;display:block}
+.chip-wrap{display:flex;flex-wrap:wrap;gap:5px}
+.chip{
+  padding:4px 10px;border-radius:20px;font-size:11px;cursor:pointer;
+  border:1px solid var(--border);background:var(--s2);color:var(--muted2);
+  transition:all .15s;user-select:none
+}
+.chip.on{background:var(--accent-dim);border-color:var(--accent);color:var(--accent)}
+input[type=text]{
+  width:100%;background:var(--s2);border:1px solid var(--border);border-radius:var(--r);
+  color:var(--text);padding:7px 10px;font-family:'DM Mono',monospace;font-size:12px;
+  outline:none;transition:border-color .15s
+}
+input[type=text]:focus{border-color:var(--accent)}
+input[type=text]::placeholder{color:var(--muted)}
+.stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+.stat{background:var(--s2);border-radius:var(--r);padding:9px 10px;border:1px solid var(--border)}
+.stat-v{font-family:'DM Mono',monospace;font-size:17px;color:var(--accent);font-weight:500}
+.stat-l{font-size:10px;color:var(--muted);margin-top:2px;text-transform:uppercase;letter-spacing:.06em}
+.legend{display:flex;flex-direction:column;gap:7px}
+.leg{display:flex;align-items:center;gap:8px;font-size:11px;color:var(--muted2)}
+.dot{width:10px;height:10px;border-radius:2px;flex-shrink:0}
+.dot.a{background:var(--avail)}
+.dot.b{background:var(--blocked)}
+.dot.u{background:var(--unavail);border:1px solid var(--border2)}
+.dot.n{background:var(--noffer);border:1px dashed var(--border2)}
+
+/* MAIN */
+main{flex:1;overflow-y:auto;padding:20px 24px;display:flex;flex-direction:column;gap:14px}
+
+/* STATE BOX */
+.state-box{
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  height:100%;gap:14px;text-align:center;color:var(--muted)
+}
+.state-box h2{font-family:'Instrument Serif',serif;font-size:24px;color:var(--text);font-weight:400;font-style:italic}
+.state-box p{font-size:13px;max-width:340px;line-height:1.7;color:var(--muted2)}
+.state-icon{font-size:40px;opacity:.25}
+
+/* VENUE CARD */
+.vcard{background:var(--s1);border:1px solid var(--border);border-radius:10px;overflow:hidden;transition:border-color .2s}
+.vcard:hover{border-color:var(--border2)}
+.vhead{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:11px 16px;border-bottom:1px solid var(--border);cursor:pointer;transition:background .15s
+}
+.vhead:hover{background:var(--s2)}
+.vname{font-family:'Instrument Serif',serif;font-size:15px}
+.vhall{font-size:11px;color:var(--muted2);margin-top:1px}
+.vmeta{display:flex;align-items:center;gap:8px}
+.vreg{font-size:10px;padding:2px 7px;border-radius:20px;border:1px solid var(--border2);color:var(--muted);font-family:'DM Mono',monospace}
+.vbadge{font-size:11px;padding:2px 8px;border-radius:20px;background:var(--avail-bg);color:var(--avail);font-weight:500}
+.vbadge.none{background:rgba(255,255,255,0.04);color:var(--muted)}
+.vcaret{color:var(--muted);font-size:11px;transition:transform .2s;margin-left:4px}
+.vcard.collapsed .vcaret{transform:rotate(-90deg)}
+.vbody{padding:14px 16px}
+.vcard.collapsed .vbody{display:none}
+
+/* TIME GRID */
+.tgrid{display:flex;flex-direction:column;gap:5px}
+.trow{display:flex;align-items:center;gap:5px}
+.tlabel{width:28px;font-size:10px;color:var(--muted);font-family:'DM Mono',monospace;text-align:right;flex-shrink:0}
+.theader{display:flex;align-items:center;gap:5px;margin-bottom:1px}
+.theader-sp{width:28px;flex-shrink:0}
+.thlabels{display:flex;flex:1}
+.slots{display:flex;flex:1;gap:1.5px}
+.slot{flex:1;height:18px;border-radius:2px;cursor:default;transition:transform .1s}
+.slot.a{background:var(--avail);cursor:pointer}
+.slot.a:hover{transform:scaleY(1.3);opacity:.85}
+.slot.b{background:var(--blocked)}
+.slot.u{background:var(--unavail)}
+.slot.n{background:var(--noffer)}
+.slot.hide{background:transparent}
+
+/* TOOLTIP */
+#tip{
+  position:fixed;background:var(--s3);border:1px solid var(--border2);border-radius:6px;
+  padding:5px 9px;font-size:11px;pointer-events:none;z-index:999;display:none;
+  white-space:nowrap;font-family:'DM Mono',monospace;color:var(--text)
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar{width:5px;height:5px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--border2);border-radius:3px}
+
+/* FOOTER */
+footer{
+  border-top:1px solid var(--border);padding:9px 24px;
+  font-size:11px;color:var(--muted);display:flex;justify-content:space-between;
+  background:var(--bg)
+}
+footer a{color:var(--muted);text-decoration:none}
+footer a:hover{color:var(--text)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Linz <em>Sports Halls</em></div>
+  <div class="header-right">
+    <div class="updated" id="updated-label">Loading…</div>
+  </div>
+</header>
+
+<div class="date-tabs" id="date-tabs"></div>
+
+<div class="layout">
+  <aside>
+    <div>
+      <span class="sg-title">Region</span>
+      <div class="chip-wrap" id="region-chips">
+        <div class="chip on" data-r="LO" onclick="toggleChip(this,'region')">East</div>
+        <div class="chip on" data-r="LN" onclick="toggleChip(this,'region')">North</div>
+        <div class="chip on" data-r="LS" onclick="toggleChip(this,'region')">South</div>
+        <div class="chip on" data-r="LW" onclick="toggleChip(this,'region')">West</div>
+      </div>
+    </div>
+
+    <div>
+      <span class="sg-title">Show slots</span>
+      <div class="chip-wrap">
+        <div class="chip on" data-s="a" onclick="toggleChip(this,'status')">Available</div>
+        <div class="chip on" data-s="b" onclick="toggleChip(this,'status')">Blocked</div>
+        <div class="chip on" data-s="u" onclick="toggleChip(this,'status')">Unavailable</div>
+        <div class="chip on" data-s="n" onclick="toggleChip(this,'status')">Not offered</div>
+      </div>
+    </div>
+
+    <div>
+      <span class="sg-title">Filter name</span>
+      <input type="text" id="name-inc" placeholder="show only… (regex)" oninput="renderVenues()">
+    </div>
+    <div>
+      <span class="sg-title">Exclude name</span>
+      <input type="text" id="name-exc" placeholder="exclude… (regex)" oninput="renderVenues()">
+    </div>
+
+    <div>
+      <span class="sg-title">Summary</span>
+      <div class="stat-grid">
+        <div class="stat"><div class="stat-v" id="sv">—</div><div class="stat-l">Venues</div></div>
+        <div class="stat"><div class="stat-v" id="sa">—</div><div class="stat-l">Free slots</div></div>
+        <div class="stat"><div class="stat-v" id="st">—</div><div class="stat-l">Total slots</div></div>
+        <div class="stat"><div class="stat-v" id="sp">—</div><div class="stat-l">Availability</div></div>
+      </div>
+    </div>
+
+    <div>
+      <span class="sg-title">Legend</span>
+      <div class="legend">
+        <div class="leg"><div class="dot a"></div>Available — click to book</div>
+        <div class="leg"><div class="dot b"></div>Blocked / booked</div>
+        <div class="leg"><div class="dot u"></div>Unavailable</div>
+        <div class="leg"><div class="dot n"></div>Not offered</div>
+      </div>
+    </div>
+  </aside>
+
+  <main id="main">
+    <div class="state-box" id="state-box">
+      <div class="state-icon">🏟</div>
+      <h2>Loading data…</h2>
+      <p>Fetching venue availability from data.json</p>
+    </div>
+  </main>
+</div>
+
+<footer>
+  <span>Data from <a href="https://book.venuzle.at/stadt-linz/venues/" target="_blank">book.venuzle.at</a> · Personal, non-commercial project</span>
+  <span>No guarantee of accuracy or completeness</span>
+</footer>
+
+<div id="tip"></div>
+
+<script>
+const T_START = 7, T_END = 22;
+const BUCKET = 30;
+const DAYS = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+
+let allVenues = [];
+let selectedDate = '';
+let activeRegions = new Set(['LO','LN','LS','LW']);
+let activeStatuses = new Set(['a','b','u','n']);
+
+// ── Load data.json ─────────────────────────────────────────────────────────
+async function init(){
+  try {
+    const res = await fetch('data.json')
+    if(!res.ok) throw new Error('data.json not found')
+    const json = await res.json()
+    allVenues = json.venues || []
+
+    const updated = json.updated || ''
+    document.getElementById('updated-label').textContent = updated ? `Updated ${updated}` : 'Live data'
+
+    buildDateTabs()
+  } catch(e) {
+    document.getElementById('state-box').innerHTML = `
+      <div class="state-icon">⚠️</div>
+      <h2>No data found</h2>
+      <p>The scraper hasn't run yet. Go to your GitHub repo → Actions → run the workflow manually.</p>`
+  }
+}
+
+// ── Date tabs ──────────────────────────────────────────────────────────────
+function buildDateTabs(){
+  // Get all unique dates across all venues
+  const dateSet = new Set()
+  allVenues.forEach(v => v.days.forEach(d => dateSet.add(d.date)))
+  const dates = [...dateSet].sort()
+
+  if(!dates.length) return
+
+  // Default to today or nearest date
+  const today = new Date().toISOString().slice(0,10)
+  selectedDate = dates.find(d => d >= today) || dates[0]
+
+  const container = document.getElementById('date-tabs')
+  container.innerHTML = ''
+
+  dates.forEach(date => {
+    const d = new Date(date + 'T12:00:00')
+    const dow = DAYS[d.getDay()===0?6:d.getDay()-1]
+    const label = `${dow} ${d.getDate().toString().padStart(2,'0')}.${(d.getMonth()+1).toString().padStart(2,'0')}`
+
+    // Check if this date has any available slots
+    const hasAvail = allVenues.some(v =>
+      v.days.some(day => day.date===date && day.slots.some(s=>s.status==='a'))
+    )
+
+    const tab = document.createElement('div')
+    tab.className = `dtab${date===selectedDate?' active':''}${hasAvail?' has-avail':''}`
+    tab.textContent = label
+    tab.onclick = () => selectDate(date)
+    container.appendChild(tab)
+  })
+
+  renderVenues()
+}
+
+function selectDate(date){
+  selectedDate = date
+  document.querySelectorAll('.dtab').forEach(t => t.classList.remove('active'))
+  const tabs = document.querySelectorAll('.dtab')
+  const dates = allVenues.reduce((s,v)=>{v.days.forEach(d=>s.add(d.date));return s},new Set())
+  const sorted = [...dates].sort()
+  const idx = sorted.indexOf(date)
+  if(tabs[idx]) tabs[idx].classList.add('active')
+  renderVenues()
+}
+
+// ── Render ─────────────────────────────────────────────────────────────────
+function renderVenues(){
+  const main = document.getElementById('main')
+  const sb = document.getElementById('state-box')
+  main.querySelectorAll('.vcard').forEach(c=>c.remove())
+
+  const incRx = safeRx(document.getElementById('name-inc').value)
+  const excRx = safeRx(document.getElementById('name-exc').value)
+
+  const venues = allVenues.filter(v => {
+    if(!activeRegions.has(v.region)) return false
+    if(incRx && !incRx.test(v.name)) return false
+    if(excRx && excRx.test(v.name)) return false
+    // Must have data for selected date
+    return v.days.some(d => d.date === selectedDate)
+  })
+
+  if(!venues.length){ sb.style.display='flex'; updateStats(0,0,0); return }
+  sb.style.display='none'
+
+  let totalAvail=0, totalSlots=0
+
+  venues.forEach(v => {
+    const day = v.days.find(d => d.date === selectedDate)
+    if(!day) return
+    const {el, avail, total} = buildCard(v, day)
+    main.appendChild(el)
+    totalAvail += avail
+    totalSlots += total
+  })
+
+  updateStats(venues.length, totalAvail, totalSlots)
+}
+
+function buildCard(v, day){
+  const TOTAL = (T_END - T_START) * 60
+  const N = TOTAL / BUCKET
+
+  // Build minute map
+  const mmap = new Array(TOTAL).fill('n')
+  day.slots.forEach(sl => {
+    const s = sl.start - T_START*60
+    const e = sl.end   - T_START*60
+    for(let m=Math.max(0,s); m<Math.min(TOTAL,e); m++){
+      const cur=mmap[m], nxt=sl.status
+      if(cur==='n') mmap[m]=nxt
+      else if(cur==='u'&&(nxt==='a'||nxt==='b')) mmap[m]=nxt
+      else if(cur==='b'&&nxt==='a') mmap[m]=nxt
+    }
+  })
+
+  let avail=0, total=0
+  for(let b=0;b<N;b++){
+    const dom = bucket(mmap, b)
+    if(dom!=='n') total++
+    if(dom==='a') avail++
+  }
+
+  const bookUrl = `https://book.venuzle.at/stadt-linz/venues/v/${v.id}/${selectedDate.replace(/-/g,'')}/`
+  const el = document.createElement('div')
+  el.className = 'vcard'
+  el.innerHTML = `
+    <div class="vhead" onclick="this.parentElement.classList.toggle('collapsed')">
+      <div>
+        <div class="vname">${esc(v.facility)}</div>
+        <div class="vhall">${esc(v.hall)}</div>
+      </div>
+      <div class="vmeta">
+        <span class="vreg">${v.region}</span>
+        <span class="vbadge ${avail?'':'none'}">${avail?avail+' free':'none free'}</span>
+        <span class="vcaret">▾</span>
+      </div>
+    </div>
+    <div class="vbody">${buildGrid(mmap, N, bookUrl, v.name)}</div>`
+
+  return {el, avail, total}
+}
+
+function buildGrid(mmap, N, bookUrl, vname){
+  const d = new Date(selectedDate + 'T12:00:00')
+  const dow = DAYS[d.getDay()===0?6:d.getDay()-1]
+
+  let html = `<div class="tgrid">`
+  // Time header
+  html += `<div class="theader"><div class="theader-sp"></div><div class="thlabels">`
+  for(let h=T_START;h<T_END;h+=2)
+    html += `<span style="flex:4;font-size:9px;color:var(--muted);font-family:'DM Mono',monospace">${h}:00</span>`
+  html += `</div></div>`
+
+  // Row
+  html += `<div class="trow"><div class="tlabel">${dow}</div><div class="slots">`
+  for(let b=0;b<N;b++){
+    const dom = bucket(mmap,b)
+    if(!activeStatuses.has(dom)){ html+=`<div class="slot hide"></div>`; continue }
+
+    const sMin = T_START*60+b*BUCKET, eMin=sMin+BUCKET
+    const tl = `${pad(Math.floor(sMin/60))}:${pad(sMin%60)}–${pad(Math.floor(eMin/60))}:${pad(eMin%60)}`
+    const tipTxt = `${esc(vname)} · ${tl}`
+
+    if(dom==='a'){
+      html+=`<a class="slot a" href="${esc(bookUrl)}" target="_blank"
+        onmouseenter="tip(event,'${tipTxt} · available')" onmouseleave="tipHide()"></a>`
+    } else {
+      const lbl = dom==='b'?'blocked':dom==='u'?'unavailable':'not offered'
+      html+=`<div class="slot ${dom}"
+        onmouseenter="tip(event,'${tipTxt} · ${lbl}')" onmouseleave="tipHide()"></div>`
+    }
+  }
+  html += `</div></div></div>`
+  return html
+}
+
+// ── Helpers ────────────────────────────────────────────────────────────────
+function bucket(mmap, b){
+  const s=new Set()
+  for(let m=b*BUCKET;m<(b+1)*BUCKET;m++) s.add(mmap[m])
+  if(s.has('a')) return 'a'
+  if(s.has('b')) return 'b'
+  if(s.has('u')) return 'u'
+  return 'n'
+}
+
+function toggleChip(el, type){
+  const val = type==='region' ? el.dataset.r : el.dataset.s
+  const set  = type==='region' ? activeRegions : activeStatuses
+  if(el.classList.contains('on')){
+    if(type==='region' && activeRegions.size<=1) return
+    el.classList.remove('on'); set.delete(val)
+  } else {
+    el.classList.add('on'); set.add(val)
+  }
+  renderVenues()
+}
+
+function updateStats(v,a,t){
+  document.getElementById('sv').textContent=v||'—'
+  document.getElementById('sa').textContent=a||'—'
+  document.getElementById('st').textContent=t||'—'
+  document.getElementById('sp').textContent=t?Math.round(100*a/t)+'%':'—'
+}
+
+function tip(e,text){
+  const t=document.getElementById('tip')
+  t.textContent=text;t.style.display='block'
+  t.style.left=(e.clientX+14)+'px';t.style.top=(e.clientY-32)+'px'
+}
+function tipHide(){document.getElementById('tip').style.display='none'}
+function safeRx(s){if(!s)return null;try{return new RegExp(s,'i')}catch{return null}}
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;')}
+function pad(n){return String(n).padStart(2,'0')}
+
+init()
+</script>
+</body>
+</html>
