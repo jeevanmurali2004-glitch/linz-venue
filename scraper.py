@@ -55,18 +55,19 @@ def parse_html(html, region_id, date_str):
 
         for cell in row.find_all("td", class_="slot"):
             colspan = int(cell.get("colspan", 1))
-            classes = " ".join(cell.get("class", []))
+            classes = cell.get("class", [])
+            class_str = " ".join(classes)
 
-            if "noDisplay" in classes and "timeframe" not in classes:
-                status = "n"
-            elif "free-slot" in classes:
+            if "free-slot" in classes:
                 status = "a"
-            elif "blocked-slot" in classes:
+            elif "timeframe" in classes:
+                status = "b"
+            elif "blocked-slot" in classes and "noDisplay" not in classes:
                 status = "b"
             elif "unavailable-slot" in classes:
                 status = "u"
-            elif "timeframe" in classes:
-                status = "b"
+            elif "noDisplay" in classes:
+                status = "n"
             else:
                 status = "n"
 
