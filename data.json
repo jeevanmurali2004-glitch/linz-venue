@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-05",
+  "updated": "2026-06-06",
   "venues": [
     {
       "id": "40",
@@ -8,36 +8,6 @@
       "hall": "Normalhalle",
       "region": "LN",
       "days": [
-        {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
         {
           "date": "2026-06-06",
           "slots": [
@@ -910,6 +880,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
@@ -948,36 +948,6 @@
       "region": "LN",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -1849,6 +1819,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
@@ -1887,31 +1887,6 @@
       "region": "LN",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1320,
-              "status": "b"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -1922,12 +1897,12 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
               "end": 960,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 960,
@@ -2798,6 +2773,36 @@
               "start": 780,
               "end": 960,
               "status": "b"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "b"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "b"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
             },
             {
               "start": 960,
@@ -2821,36 +2826,6 @@
       "region": "LN",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -2861,7 +2836,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -3732,6 +3707,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -3760,36 +3765,6 @@
       "region": "LN",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -4661,6 +4636,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
@@ -4699,36 +4704,6 @@
       "region": "LN",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -4739,7 +4714,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -5610,6 +5585,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -5638,36 +5643,6 @@
       "region": "LN",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -5678,7 +5653,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -6549,6 +6524,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -6577,36 +6582,6 @@
       "region": "LN",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -7478,6 +7453,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
@@ -7516,36 +7521,6 @@
       "region": "LN",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -7556,7 +7531,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -8427,6 +8402,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -8455,36 +8460,6 @@
       "region": "LN",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -8495,7 +8470,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -9366,6 +9341,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -9394,36 +9399,6 @@
       "region": "LN",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -9434,7 +9409,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -10305,6 +10280,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -10333,36 +10338,6 @@
       "region": "LN",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -10373,7 +10348,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -11244,6 +11219,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -11272,36 +11277,6 @@
       "region": "LN",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -11312,7 +11287,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -12183,6 +12158,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -12211,36 +12216,6 @@
       "region": "LN",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -13112,6 +13087,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
@@ -13150,36 +13155,6 @@
       "region": "LN",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -13190,7 +13165,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -14061,6 +14036,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -14089,36 +14094,6 @@
       "region": "LN",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -14129,7 +14104,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -15000,6 +14975,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -15028,36 +15033,6 @@
       "region": "LN",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -15929,6 +15904,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
@@ -15967,36 +15972,6 @@
       "region": "LN",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -16868,6 +16843,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
@@ -16906,36 +16911,6 @@
       "region": "LN",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -16946,7 +16921,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -17817,6 +17792,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -17845,36 +17850,6 @@
       "region": "LN",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -17885,7 +17860,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -18756,6 +18731,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -18784,36 +18789,6 @@
       "region": "LO",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -18824,7 +18799,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -19695,6 +19670,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -19723,36 +19728,6 @@
       "region": "LO",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -19763,7 +19738,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -20634,6 +20609,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -20662,36 +20667,6 @@
       "region": "LO",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -20702,7 +20677,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -21573,6 +21548,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -21601,36 +21606,6 @@
       "region": "LO",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -22502,6 +22477,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
@@ -22540,36 +22545,6 @@
       "region": "LO",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -23441,6 +23416,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
@@ -23479,36 +23484,6 @@
       "region": "LO",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -23519,7 +23494,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -24390,6 +24365,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -24418,36 +24423,6 @@
       "region": "LO",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -24458,7 +24433,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -25329,6 +25304,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -25357,36 +25362,6 @@
       "region": "LO",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -25397,7 +25372,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -26268,6 +26243,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -26296,36 +26301,6 @@
       "region": "LO",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -27197,6 +27172,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
@@ -27235,36 +27240,6 @@
       "region": "LO",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -28136,6 +28111,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
@@ -28174,36 +28179,6 @@
       "region": "LS",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -28214,7 +28189,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -29085,6 +29060,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -29113,36 +29118,6 @@
       "region": "LS",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -29153,7 +29128,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -30024,6 +29999,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -30052,36 +30057,6 @@
       "region": "LS",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -30092,7 +30067,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -30963,6 +30938,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -30991,36 +30996,6 @@
       "region": "LS",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -31031,7 +31006,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -31902,6 +31877,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -31930,36 +31935,6 @@
       "region": "LS",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -32831,6 +32806,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
@@ -32869,36 +32874,6 @@
       "region": "LS",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -33770,6 +33745,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
@@ -33808,36 +33813,6 @@
       "region": "LS",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -34709,6 +34684,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
@@ -34747,36 +34752,6 @@
       "region": "LS",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -34787,7 +34762,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -35658,6 +35633,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -35686,36 +35691,6 @@
       "region": "LS",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -35726,7 +35701,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -36597,6 +36572,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -36625,36 +36630,6 @@
       "region": "LS",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -36665,7 +36640,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -37536,6 +37511,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -37564,36 +37569,6 @@
       "region": "LS",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -37604,7 +37579,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -38475,6 +38450,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -38503,36 +38508,6 @@
       "region": "LS",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -39404,6 +39379,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
@@ -39442,36 +39447,6 @@
       "region": "LS",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -40343,6 +40318,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
@@ -40381,36 +40386,6 @@
       "region": "LS",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -41282,6 +41257,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
@@ -41320,36 +41325,6 @@
       "region": "LS",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -42221,6 +42196,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
@@ -42259,36 +42264,6 @@
       "region": "LS",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -43160,6 +43135,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
@@ -43198,36 +43203,6 @@
       "region": "LS",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -44099,6 +44074,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
@@ -44137,36 +44142,6 @@
       "region": "LS",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -45038,6 +45013,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
@@ -45076,36 +45081,6 @@
       "region": "LS",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -45977,6 +45952,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
@@ -46015,36 +46020,6 @@
       "region": "LS",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -46916,6 +46891,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
@@ -46954,36 +46959,6 @@
       "region": "LS",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -46994,7 +46969,7 @@
             {
               "start": 600,
               "end": 780,
-              "status": "b"
+              "status": "n"
             },
             {
               "start": 780,
@@ -47865,6 +47840,36 @@
               "start": 600,
               "end": 780,
               "status": "b"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
             },
             {
               "start": 780,
@@ -47893,36 +47898,6 @@
       "region": "LS",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -48794,6 +48769,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
@@ -48832,36 +48837,6 @@
       "region": "LS",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -49733,6 +49708,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
@@ -49771,36 +49776,6 @@
       "region": "LS",
       "days": [
         {
-          "date": "2026-06-05",
-          "slots": [
-            {
-              "start": 420,
-              "end": 600,
-              "status": "n"
-            },
-            {
-              "start": 600,
-              "end": 780,
-              "status": "n"
-            },
-            {
-              "start": 780,
-              "end": 960,
-              "status": "n"
-            },
-            {
-              "start": 960,
-              "end": 1140,
-              "status": "n"
-            },
-            {
-              "start": 1140,
-              "end": 1320,
-              "status": "n"
-            }
-          ]
-        },
-        {
           "date": "2026-06-06",
           "slots": [
             {
@@ -50672,6 +50647,36 @@
         },
         {
           "date": "2026-07-05",
+          "slots": [
+            {
+              "start": 420,
+              "end": 600,
+              "status": "n"
+            },
+            {
+              "start": 600,
+              "end": 780,
+              "status": "n"
+            },
+            {
+              "start": 780,
+              "end": 960,
+              "status": "n"
+            },
+            {
+              "start": 960,
+              "end": 1140,
+              "status": "n"
+            },
+            {
+              "start": 1140,
+              "end": 1320,
+              "status": "n"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
           "slots": [
             {
               "start": 420,
